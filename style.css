@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Exo:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+body {
+  background: url(./img/background.jpg) center center / cover no-repeat fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+Nav h1 {
+  font-family: 'Nunito';
+  font-size: 2rem;
+  color: #1283b4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+Nav button {
+  width: 100px;
+  height: 60px;
+  background-color: #1283b4;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+Nav button a {
+  font-family: 'Nunito';
+  font-size: 1rem;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+Nav button:hover {
+  background-color: #008bbd;
+}
+
+/* Section */
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+Section h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Model-Viewer */
+model-viewer {
+  width: 480px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+/* Parent */
+
+.parentText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.parentOne,
+.parentTwo,
+.parentThree,
+.parentFour,
+.parentFive {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Footer */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#footer h1 {
+  font-family: 'Nunito';
+  font-size: 2rem;
+  color: #008bbd;
+  letter-spacing: 2px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  #navbar {
+    margin: 0 1rem;
+  }
+  .parentOne,
+  .parentTwo,
+  .parentThree,
+  .parentFour,
+  .parentFive {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  model-viewer {
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    margin: 0.5rem auto;
+  }
+}

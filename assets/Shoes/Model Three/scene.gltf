@@ -1,0 +1,312 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 60292,
+      "max": [
+        6.0858120918273926,
+        0.67107301950454712,
+        -22.288646697998047
+      ],
+      "min": [
+        -3.7034370899200439,
+        -3.7834100723266602,
+        -29.654947280883789
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 723504,
+      "componentType": 5126,
+      "count": 60292,
+      "max": [
+        0.99996078014373779,
+        0.99998056888580322,
+        0.9999537467956543
+      ],
+      "min": [
+        -0.99999284744262695,
+        -0.99999964237213135,
+        -0.99967610836029053
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 60292,
+      "max": [
+        0.99998915195465088,
+        0.99996787309646606,
+        0.99997764825820923,
+        1
+      ],
+      "min": [
+        -0.99998360872268677,
+        -0.99999105930328369,
+        -0.99995553493499756,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 60292,
+      "max": [
+        1,
+        0.99975097179412842
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 303090,
+      "max": [
+        60291
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "thesidekick (https://sketchfab.com/thesidekick)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/winter-shoe-710d062364b34ab38fce619b5daabfcb",
+      "title": "Winter Shoe"
+    },
+    "generator": "Sketchfab-6.43.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1212360,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 482336,
+      "byteOffset": 1212360,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1447008,
+      "byteOffset": 1694696,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 964672,
+      "byteOffset": 3141704,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4106376,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Winter_shoe_size32_low_sculpted_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Winter_shoe_size32_low_sculpted_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Winter_shoe_size32_low_sculpted_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.62310606060606055,
+        0.62310606060606055,
+        0.62310606060606055
+      ],
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "name": "Winter_shoe_size32_low_sculpted",
+      "normalTexture": {
+        "index": 2,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Winter_shoe_size32_low_sculpted_Winter_shoe_size32_low_sculpted_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Winter_shoe_size32.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        8.3354297097940062,
+        -63.893386783441365,
+        76.473235428446756,
+        0,
+        98.436910951733637,
+        17.226596521458291,
+        3.663394661554753,
+        0,
+        -15.514401451019644,
+        74.972525253653771,
+        64.330582188464973,
+        0,
+        -241.50393676757812,
+        2250.672607421875,
+        1622.041748046875,
+        1
+      ],
+      "name": "Winter_shoe_size32_low_sculpted"
+    },
+    {
+      "mesh": 0,
+      "name": "Winter_shoe_size32_low_sculpted_Winter_shoe_size32_low_sculpted_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
